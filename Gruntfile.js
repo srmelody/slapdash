@@ -12,7 +12,7 @@ module.exports = function (grunt) {
                 reporter: require('jshint-stylish')
             },
             js: {
-                src: ['*.js']
+                src: ['lib/*.js']
             },
             test: {
                 src: ['test/**/*.js']
